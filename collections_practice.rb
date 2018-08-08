@@ -40,7 +40,7 @@ def sum_array(integer_arr)
 end
 
 def add_s(word_arr)
-  word_arr.each_with_index.map {|word, index| index == 1 ? word[1] : word + "s"}
+  word_arr.each_with_index.map {|word, index| index == 1 ? word : word + "s"}
 end
 
   
