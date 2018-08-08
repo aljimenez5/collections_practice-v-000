@@ -40,7 +40,7 @@ def sum_array(integer_arr)
 end
 
 def add_s(word_arr)
-  word_arr.each_with_index.collect {|word, index| word + "s" unless word[index] == 0 return word}
+  word_arr.each_with_index.collect {|word, index| word + "s" except word[1] }
 end
   
 
